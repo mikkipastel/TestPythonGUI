@@ -25,11 +25,11 @@ class Application(Frame):
     # create print button
     self.button = Button(self)
     self.button["text"] = "Print"
-    self.button["command"] = self.copy_eimer
+    self.button["command"] = self.print_number
     self.button.grid(column=2, row=3)
     
   # copy source file from eimer to destination folder
-  def copy_eimer(self):
+  def print_number(self):
     print("hi there, everyone! " + self.box.get())
 
 # for debug
