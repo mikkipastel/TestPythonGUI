@@ -11,10 +11,10 @@ class Application(Frame):
   def create_widgets(self):
   
     #add label for number
-    self.label2 = Label(self)
-    self.label2.grid()
-    self.label2["text"] = "Number :" 
-    self.label2.grid(column=1, row=2)
+    self.label1 = Label(self)
+    self.label1.grid()
+    self.label1["text"] = "Number :" 
+    self.label1.grid(column=1, row=2)
     
     # create combobox for select number
     self.box = Combobox(self)
