@@ -12,7 +12,6 @@ class Application(Frame):
   
     #add label for number
     self.label1 = Label(self)
-    self.label1.grid()
     self.label1["text"] = "Number :" 
     self.label1.grid(column=1, row=2)
     
@@ -25,7 +24,6 @@ class Application(Frame):
 
     # create print button
     self.button = Button(self)
-    self.button.grid()
     self.button["text"] = "Print"
     self.button["command"] = self.copy_eimer
     self.button.grid(column=2, row=3)
